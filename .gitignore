@@ -1,3 +1,11 @@
+# Secrets and local env
+.dev.vars
+.env
+.env.*
+
+# Wrangler local state
+.wrangler/
+
 # Logs
 logs
 *.log
