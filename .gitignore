@@ -12,10 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Secrets — never commit
-.dev.vars
-*.vars
-
 # Cloudflare / tooling cache
 .wrangler
 .claude
