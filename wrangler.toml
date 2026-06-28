@@ -1,0 +1,15 @@
+name = "vanillabrice"
+compatibility_date = "2026-06-08"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "VIEWS_DB"
+database_name = "brice-views"
+database_id = "bab7a8d8-3283-41c9-9360-57b86afa8f61"
+
+[env.production]
+
+[[env.production.d1_databases]]
+binding = "VIEWS_DB"
+database_name = "brice-views"
+database_id = "bab7a8d8-3283-41c9-9360-57b86afa8f61"
