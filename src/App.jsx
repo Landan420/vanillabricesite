@@ -1656,7 +1656,9 @@ export default function App() {
       </section>
       {specsOpen && <SpecsModal onClose={() => setSpecsOpen(false)} />}
       <HardwareWarning />
-      <span className="dev-tag">made by landan</span>
+      <span className="dev-tag">made by landan
+        
+      </span>
     </main>
   )
 }
