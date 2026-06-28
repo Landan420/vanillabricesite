@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "wrangler pages dev -- vite",
+    "start": "wrangler pages dev -- npx vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
